@@ -10,6 +10,7 @@ import Projects from "../pages/Projects";
 import People from "../pages/People";
 import Home from "../pages/Home";
 import COVID from "../pages/COVID";
+import Additional from "../pages/Additional";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Teaching" element={<Teaching />} />
         <Route path="/Opportunity" element={<Opportunity />} />
         <Route path="/COVID" element={<COVID />} />
+        <Route path="/Additional" element={<Additional />} />
       </Routes>
     </>
   );
