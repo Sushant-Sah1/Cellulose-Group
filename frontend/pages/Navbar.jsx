@@ -33,7 +33,9 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-white pb-1" : "hover:text-gray-200"
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
               }
             >
               Home
@@ -41,7 +43,9 @@ const Navbar = () => {
             <NavLink
               to="/Projects"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-white pb-1" : "hover:text-gray-200"
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
               }
             >
               Projects
@@ -49,7 +53,9 @@ const Navbar = () => {
             <NavLink
               to="/Publications"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-white pb-1" : "hover:text-gray-200"
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
               }
             >
               Publications
@@ -57,7 +63,9 @@ const Navbar = () => {
             <NavLink
               to="/Recognition"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-white pb-1" : "hover:text-gray-200"
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
               }
             >
               Recognition
@@ -65,7 +73,9 @@ const Navbar = () => {
             <NavLink
               to="/People"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-white pb-1" : "hover:text-gray-200"
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
               }
             >
               People
@@ -73,7 +83,9 @@ const Navbar = () => {
             <NavLink
               to="/Facility"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-white pb-1" : "hover:text-gray-200"
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
               }
             >
               Facility
@@ -81,7 +93,9 @@ const Navbar = () => {
             <NavLink
               to="/Teaching"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-white pb-1" : "hover:text-gray-200"
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
               }
             >
               Teaching
@@ -89,7 +103,9 @@ const Navbar = () => {
             <NavLink
               to="/Opportunity"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-white pb-1" : "hover:text-gray-200"
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
               }
             >
               Opportunity
@@ -97,10 +113,22 @@ const Navbar = () => {
             <NavLink
               to="/COVID"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-white pb-1" : "hover:text-gray-200"
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
               }
             >
               COVID
+            </NavLink>
+            <NavLink
+              to="/Additional"
+              className={({ isActive }) =>
+                isActive
+                  ? "border-b-2 border-white pb-1"
+                  : "hover:text-gray-200"
+              }
+            >
+              Additional
             </NavLink>
           </nav>
         </div>
